@@ -1,5 +1,5 @@
 /*
-* Int this code, Two different approches are used
+* In this code, Two different approches are used
 * 1. Iterative
 * 2. Recursive
 * */

@@ -13,7 +13,7 @@ public class PalindromeCheck {
         String st;
         System.out.print("Enter a string: ");
         Scanner sc = new Scanner(System.in);
-        st = sc.nextLine();
+        st = sc.next();
 //        System.out.println(palindrome(st));
 
         if(palindrome(st))

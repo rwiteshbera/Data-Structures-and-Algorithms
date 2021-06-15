@@ -1,6 +1,9 @@
 package rwitesh.string;
 //Time Complexity of this solution is O(N^2)
 
+//The input string is geeksforgeeks
+//The length of the longest non-repeating character substring is 7
+
 import java.util.Scanner;
 
 public class LongestSubstringWithDistinctChar_Efficient {

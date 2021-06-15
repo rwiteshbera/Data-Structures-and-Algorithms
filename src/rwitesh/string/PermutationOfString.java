@@ -1,6 +1,6 @@
 package rwitesh.string;
 
-//Time Complexity :  O(N*N)
+//Time Complexity of the solution :  O(N*N)
 public class PermutationOfString {
     static String Swap(String s, int l, int r){
         char temp;

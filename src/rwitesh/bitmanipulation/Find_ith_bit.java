@@ -17,12 +17,10 @@ public class Find_ith_bit {
         int mask = (1<<index);
         int ans = num&mask;
 
-        if(ans==0)
-        {
+        if(ans==0) {
             System.out.println("The "+i+"th bit is: 0");
         }
-        else
-        {
+        else {
             System.out.println("The "+i+"th bit is: 1");
         }
 

@@ -1,4 +1,6 @@
-//Find the number of bits to change to convert a to b(0)
+//Count number of bits to be flipped to convert A to B
+// or
+// Count the number of set bits
 package rwitesh.bitmanipulation;
 
 import java.util.Scanner;

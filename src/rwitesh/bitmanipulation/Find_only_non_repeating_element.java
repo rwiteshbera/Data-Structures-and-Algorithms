@@ -1,4 +1,8 @@
 package rwitesh.bitmanipulation;
+// Input Array [1, 1, 2, 3, 3, 4, 4]
+// Output: 2
+// Find the only one element.
+// Rest other elements must be double
 
 import java.util.Scanner;
 

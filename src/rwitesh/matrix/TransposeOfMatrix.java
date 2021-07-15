@@ -46,11 +46,11 @@ public class TransposeOfMatrix {
 
     // Print the transpose of a rectangular matrix
     // Approach 3
-    static void printTransposeRectangular(int[][]x, int[][] y){
+    static void printTransposeRectangular(int[][]x){
         {
             int row = x.length;
             int col = x[0].length;
-
+            int [][] y = new int[col][row];
             for(int i=0; i<col; i++){
                 for(int j=0; j<row; j++){
                     y[i][j] = x[j][i];
@@ -80,8 +80,7 @@ public class TransposeOfMatrix {
 
         // Approach 3 - Rectangular Matrix
         int[][] x = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
-        int[][] y = new int[x[0].length][x.length];
-        printTransposeRectangular(x,y);
+        printTransposeRectangular(x);
 
     }
 }

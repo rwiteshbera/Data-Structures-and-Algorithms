@@ -34,7 +34,7 @@ class MyStack {
 
     int peek(){
         if (topIndex==-1){
-            return -1;
+            return Integer.MAX_VALUE;
         }else {
             return arr[topIndex];
         }

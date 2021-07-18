@@ -38,7 +38,7 @@ public class Various_String_Methods {
         System.out.println(name.indexOf('w')); // Return the index of 'w'
         System.out.println(name.indexOf("it")); // Return index of 'i' of the "it"
 
-        System.out.println(name.equals("Rwitesh")); // Return true if the string is equal to the string given in the parentheses
+        System.out.println(name.equals("Rwitesh")); // Return true if the string value is equal to the string given in the parentheses
         System.out.println(name.equalsIgnoreCase("rWITesh")); // return true if the string is equal to the string given in the parentheses without checking the cases whether it is upper or not
     }
 }
